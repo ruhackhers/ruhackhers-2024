@@ -31,15 +31,17 @@
 </head>
 
 <body>
+ <img src = "images/graphics/2024background.png"/>
+
 <!--end navbar markup-->
 <div class="container-fluid">
-<nav class="navbar navbar-expand-sm fixed-top" id="navbar">
+<nav class="navbar navbar-expand-sm fixed-top" id="navbar" style="background-color: #0C5241">
     <div class="navbar-header">
     <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     </div>
-    <div class="collapse navbar-collapse" id="navbar navbarMenu">
+    <div class="collapse navbar-collapse" id="navbarMenu">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
             <li class="nav-item"><a href="#sponsors" class="nav-link">Sponsors</a></li>
@@ -48,15 +50,25 @@
             <li class="nav-item"><a href="#team" class="nav-link">Team</a></li>
         </ul>
     </div>
-<!--     <a href="google.com" class="navbar-brand cta">Register today!</a>-->
 </nav>
 </div>
 
 
     <div id="header">
-        <img id="logo" src="images/logos/HackHERS2023.png">
+        <img id="logo" src="images/logos/2024logo.png" >
         <div id="header-right">
-<!--            <img src="images/logos/text-logo.png" id="main-logo">-->
+            <h2 id="hack-date">
+                New Jersey's Largest Women and Non-Binary Centric Hackathon
+            </h2>
+            <div class="register">
+                <button id="register_button">
+                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSclJGaGZZcie1F6qb3eDhJnp0IxG2KXQip-MAYjFnbXApg61Q/viewform">
+                        <img src="images/graphics/diano_register_button.png" style="width: 160px; height: 160px;">
+                    </a>
+                </button>
+            </div>
+        </div>
+        <div id="header-below">
             <div id="countdown"> 
                 <!-- Display the countdown timer in an element -->
                <!-- <h1 style="padding-top: 5%">Time Remaining</h1>  -->
@@ -124,40 +136,36 @@
                         var timeinterval = setInterval(updateClock, 1000);
                     }
 
-                    var deadline = new Date("Feb 12, 2023 8:00:00");
+                    var deadline = new Date("Feb 10, 2023 8:00:00");
                     initializeClock('clockdiv', deadline);
                 </script>
             </div> 
-            <h2 id="hack-date">
-                February 17-18, 2024 <br>
-                Saturday: 126 College Ave, New Brunswick, NJ 08901 <br>
-                Sunday: Virtual <br>
-                New Jersey's largest all-female, femme, and non-binary hackathon.
-            </h2>
-
+                <h4> 
+                    February 10-11, 2024 <br><br>
+                    Saturday-Sunday: Trayes Hall @Douglass Student Center - 100 George St, New Brunswick, NJ 08901 <br><br>
+                    New Jersey's largest all-female, femme, and non-binary hackathon. <br><br>
+                </h4>
+               
             <div id="app_buttons">
                 <button id="volunteer_button"><a target="_blank" href="https://tinyurl.com/4b8ce4xn">HackHERS 2023 Registration</a></button> 
                 <button id="volunteer_button"><a target="_blank" href="http://eepurl.com/hdVNlz">Subscribe to our Newsletter!</a></button>
                 <button id="volunteer_button"><a target="_blank" href= "https://hackhers-2023.devpost.com/">HackHERS 2023 Devpost</a></button>
-                <!-- <button id="volunteer_button"><a target="_blank" href= "https://tinyurl.com/fiserv-event">Hackathon Tips & Tricks with Fiserv </a></button> -->
                 <button id="volunteer_button"><a target="_blank" href= "https://airtable.com/shreqxe0TzfRSmBeu">Events Schedule</a></button>
                 <button id="volunteer_button"><a target="_blank" href= "https://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH Code of Conduct</a></button>
-            </div>
+           </div>
 	
             <div class="list-inline">
                         <a href="https://www.facebook.com/ruhackhers/" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
                         <a href="https://twitter.com/ruhackhers" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-
                         <a href="https://instagram.com/ruhackhers" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
                         <a href="https://medium.com/@ruhackhers" target="_blank" class="btn-social btn-outline"><i class="fa fa-medium"></i></a>
-
             </div>
-
         </div>
 
     </div>
     <div id="main">
         <!-- ABOUT -->
+        
         <div class="section" id="about">
             <h1 class="section-title">about</h1>
             <h4>New Jersey's largest women-centric hackathon.</h4>
@@ -203,13 +211,16 @@
                 </div>
             </div>
         </div>
+    </div>
         <div class = "section" id="schedule">
             <h1 class="section-title">schedule</h1><br>
-            <span style="font-size: 20px">
+            <h2> to be announced... </h2>
+            <!-- <span style="font-size: 20px">
                 <h4><b> All time are in EST </b></h4><br><br>
                  <div>
                     <iframe class="airtable-embed" src="https://airtable.com/embed/shreqxe0TzfRSmBeu?backgroundColor=green&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>  
-                 </div>
+                 </div> -->
+
                 <!--<br><br>
                 <h4>Saturday 02/19</h4> <br>
                 <b>9:00 AM</b>   &nbsp;&nbsp;Slack link sent out<br>
@@ -306,7 +317,7 @@
                         <h3 class="question">Where will HackHERS take place?
                         </h3>
                         <div class="answer">
-                            HackHERS will take place on Saturday at the College Avenue Student Center and will be virtual on Sunday.
+                            HackHERS will take place on Saturday and Sunday at Trayes Hall on Cook Douglass campus.
                         </div>
                     </li>
                     <li>
@@ -376,7 +387,7 @@
                         <h3 class="question">This looks like a cool event! Can my company get involved??
                         </h3>
                         <div class="answer">
-                            Absolutely! If you want to sponsor us, please email <a href="mailto:sponsorship@hackhers.org">sponsorship@hackhers.org</a>.
+                            Absolutely! If you want to sponsor us, please email <a href="mailto:sponsorship@hackhers.org">sponsorship@hackhers.org</a>
                         </div>
                     </li>
                     <li>
@@ -390,33 +401,28 @@
                         </div>
                     </li>
                 </ul>
-                <div id="faq-right">
-                    <img src="images/logos/merDiano.png" class="side">
+                <!--<div id="faq-right">
+            
                     <div>                                          </div>
                     <div> if we missed your question, hit us up at <a
                             href="mailto:rutgers.hackhers@gmail.com">rutgers.hackhers@gmail.com</a></div>
-                </div>
+                </div>-->
             </div>
         </div>
 
         <!-- SPONSORS -->
         <div class="section" id="sponsors">
-            <div class="section-title">2023 Sponsors</div>
-            <div class="sponsor-thanks">
-                <!-- <b>TO BE CONFIRMED! </b> -->
+            <div class="section-title">2024 Sponsors</div>
+            <h1 style="color: white"> to be announced...</h1>
+            <!-- <div class="sponsor-thanks">
                 A <b>huge</b> thank you to all our new sponsors for 2023! HackHERS wouldn't be the same without our amazing sponsors! 
                 <br>
-                <!-- <div id="sponsor-logos"> -->
-                    <!-- <-- Gold --> 
+
                     <div class="sponsor-tier gold">
-                        <!--<a href="http://capitalone.com/" target="_blank"><img
-                                src="images/sponsors/silver/capital_one.png"></a>
-                        <a href="https://www.lockheedmartin.com/en-us/index.html" target="_blank"><img
-                                src="images/sponsors/gold/lockheed-martin.png"></a> -->
+                       
                         <a href="https://www.fiserv.com/en.html" target="_blank"><img
                                 src="images/sponsors/gold/fiserv.png"></a>
-                        <!--<a href="http://bloomberg.com/" target="_blank"><img
-                                src="images/sponsors/silver/bloomberg.png"></a> -->
+                       
                         <a href="http://vanguard.com/" target="_blank"><img 
                                 src="images/sponsors/gold/VG_WordMark.png"></a>
                         <a href="https://www2.wakefern.com/" target="_blank"><img
@@ -424,37 +430,8 @@
                         <a href="https://www.accenture.com/" target="_blank"><img
                                 src="images/sponsors/gold/Accenture.png"></a> 
                     </div> 
-                    <!-- Silver-->
-                    <!-- <div class="sponsor-tier silver">
-                        <a href="http://gartner.com/" target="_blank"><img
-                                src="images/sponsors/silver/gartner.png"></a>
-                        <a href="http://cloud.google.com/" target="_blank"><img
-                                src="images/sponsors/silver/google_cloud.png"></a>
-                        <a href="http://lockeedmartin.com/" target="_blank"><img
-                                src="images/sponsors/silver/lockheed_martin.png"></a>
-                        <a href="http://vanguard.com/" target="_blank"><img
-                                src="images/sponsors/silver/vanguard.png"></a>
-                        <a href="http://verizon.com/" target="_blank"><img
-                                src="images/sponsors/silver/verizon.png"></a>
-                        <a href="https://www2.wakefern.com/" target="_blank"><img
-                                src="images/sponsors/silver/wakefern.png"></a>
-                    </div> -->
-                    <!-- Bronze-->
-                    <!-- <div class="sponsor-tier bronze">
-                        <a href="http://bloomberg.com/" target="_blank"><img
-                                src="images/sponsors/silver/bloomberg.png"></a>
-                    </div> -->
-                    <!-- Other Sponsors -->
-                    <!-- <div class="sponsor-tier misc">
-                        <a href="https://www.echoar.xyz/" target="_blank"><img
-                            src="images/sponsors/misc/echoar.png"></a>
-                        <a href="https://www.twilio.com/" target="_blank"><img
-                            src="images/sponsors/misc/twilio.png"></a> -->
-                        <!-- <a href="http://kingpita.com/" target="_blank"><img
-            </div>-->
-        <!-- </div> -->
-        </div>
-<h3>Package Options </h3> <br>
+        </div> -->
+<!-- <h3>Package Options </h3> <br>
 <h4>There are three sponsorship levels. All sponsorship payments must be received by December 1, 2021. Payment can be made online or by check (see next page for details).</h4><br>
 <h5>Gold: $1,500</h5> <br>
 • All benefits of silver and bronze with unlimited Mentors, 1 hour long company workshop, and large sized logo on website and shirt plus: <br>
@@ -483,7 +460,7 @@
 
 <br>
 <br>
-<br>
+<br> -->
 
             </div>
         </div>
@@ -496,6 +473,7 @@
             &lt;!&ndash; <div class='embedsocial-instagram' data-ref="56fd52ed1acb9c90192514399099b86aed976d0c"></div><script>(function(d, s, id){var js; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = "https://embedsocial.com/embedscript/in.js"; d.getElementsByTagName("head")[0].appendChild(js);}(document, "script", "EmbedSocialInstagramScript"));</script> &ndash;&gt;
             <div class='embedsocial-instagram' data-ref="c451e9fac57169d61012ccceb4e65a89311f5910"></div><script>(function(d, s, id){var js; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = "https://embedsocial.com/embedscript/in.js"; d.getElementsByTagName("head")[0].appendChild(js);}(document, "script", "EmbedSocialInstagramScript"));</script>
         </div>-->
+    
     
 
     <section id="team">
