@@ -9,8 +9,15 @@
   width: device-width;
 }
 
-html,
 
+html {
+  scroll-behavior: smooth;
+}
+* {
+  box-sizing: border-box;
+  overflow-x: hidden;
+
+}
 
 body {
   
@@ -20,8 +27,11 @@ body {
   font-family: "Cabin", sans-serif;
   scroll-snap-type: y mandatory;
   /* background-image: url('../images/graphics/2024background.png'); */
-  background-size: cover;
-  overflow-x: hidden;
+  /* background-size: cover; */
+  box-sizing: border-box;
+  max-width: 100%;
+
+  
 
 
   
@@ -1150,7 +1160,6 @@ list-inline > li {
     height: 5vh;
   }
 
-  /* their logo has a weird thing that makes it small looking so u gotta fake it being bigger */
   #honey {
     height: 7vh;
   }
@@ -1175,7 +1184,6 @@ list-inline > li {
 
   #social_media .section-title {
     font-size: 1.5em;
-    /*color: #99D8D1;*/
   }
 
    #organizers .person{
