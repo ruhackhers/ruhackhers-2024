@@ -1212,7 +1212,7 @@ list-inline > li {
 
   #logo{
     width: 300px;
-    height: 300px;
+    height: 210px;
   }
 
   #header{
@@ -1276,8 +1276,14 @@ list-inline > li {
 @media (min-width: 320px) and (max-width: 499px) {
   #team .team-wrapper {
     width: 100%;
-
 }
+
+#logo{
+  width: 300px;
+  height: 180px;
+  margin-top: 10vh;
+}
+
 #filler-3 {
   display: none;
 }
