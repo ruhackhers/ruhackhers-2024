@@ -26,7 +26,7 @@ body {
   text-align: center;
   font-family: "Cabin", sans-serif;
   scroll-snap-type: y mandatory;
-  /* background-image: url('../images/graphics/2024background.png'); */
+  background-image: url('../images/graphics/2024background.png');
   /* background-size: cover; */
   box-sizing: border-box;
   max-width: 100%;
@@ -961,11 +961,13 @@ list-inline > li {
   padding: 30px;
   width: 100%;
   margin-right: 400vh;
+  text-align: center;
 }
 
 #team .row{
   margin-top: 30px;
   width: 100%;
+
 
   /* display: flex;
   flex-direction: row;
@@ -976,9 +978,7 @@ list-inline > li {
   padding: 20px;
   padding-top: 30px;  */
 }
-.col-xs-6 .col-sm-3{
-  text-align: center;
-}
+
 #team .section-title{
   color: white;
   text-align: center;
