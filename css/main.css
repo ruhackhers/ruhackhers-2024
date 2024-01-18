@@ -217,6 +217,7 @@ should be cleared when going to a different res size*/
   #header {
     height: 100vh;
     padding: 5vw;
+    
   }
 }
 
@@ -269,6 +270,7 @@ should be cleared when going to a different res size*/
   margin-top: 20vh;
   color: white;
   position: relative;
+  
 
 }
 
@@ -366,6 +368,7 @@ should be cleared when going to a different res size*/
   color: #0C5241;
   margin-right: 10em;
   margin-left: 10em;
+  overflow: hidden;
 
 
 }
@@ -413,6 +416,7 @@ should be cleared when going to a different res size*/
 
 .section-title {
   font-size: 50px;
+  overflow: hidden;
 }
 
 #hack-date {
@@ -434,6 +438,7 @@ should be cleared when going to a different res size*/
   display: block;
   text-align: center;
   height: 60px;
+  overflow: hidden;
 }
 
 .list-inline a{
