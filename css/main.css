@@ -482,7 +482,6 @@ list-inline > li {
   margin-top: 20vh;
   position: absolute;
   top: 250vh;
-  overflow : hidden;
 }
 #about {
   text-align: center;
@@ -498,6 +497,7 @@ list-inline > li {
 #about h1 {
   align-self: center;
   color: white;
+  overflow : hidden;
 }
 
 #about a {
