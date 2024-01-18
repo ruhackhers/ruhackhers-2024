@@ -491,13 +491,13 @@ list-inline > li {
   /*background-color: #2A2F49;*/
   padding-top: 80px;
   padding-bottom: 80px;
+  overflow : hidden;
   
 }
 
 #about h1 {
   align-self: center;
   color: white;
-  overflow: hidden;
 }
 
 #about a {
