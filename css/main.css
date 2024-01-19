@@ -28,15 +28,7 @@ body {
   scroll-snap-type: y mandatory;
   background-image: url('../images/graphics/2024background.png');
   /* background-size: cover; */
-  box-sizing: border-box;
   max-width: 100%;
-
-  
-
-
-  
-
-  /* height: 100vh; */
 }
 
 
@@ -45,16 +37,12 @@ body {
 .navbar{
   border-radius: 0;
   height: 80px;
-  /* background-color: #0C5241; */
-  /* border-bottom: 1px solid #0C5241; */
-  /* box-shadow: 0 0 5px 0 #1063268; */
   margin-bottom: 0;
   text-align: center;
   font-family: "Cabin", sans-serif;
   font-size: 18px;
   font-weight: 600;
   text-transform: lowercase;
-  position: absolute;
   
 }
 
@@ -62,7 +50,7 @@ body {
 at desktop, links should be centered with branding image in center
 should be cleared when going to a different res size*/
 
-/*
+
 #myNavbar{
   text-align: center;
   padding: 0 7rem 0 8rem;
@@ -83,7 +71,7 @@ should be cleared when going to a different res size*/
   transition: all .3s ease-in-out;
 }
 
-!*to keep half of navbar links to left and the other half right*!
+/* !*to keep half of navbar links to left and the other half right*! */
 
 #navbar-left{
   float: left;
@@ -100,7 +88,7 @@ should be cleared when going to a different res size*/
   background-color: #0b0045;
   color: #0b0045;
 }
-*/
+
 
 /*navigation bar styling */
 
@@ -109,7 +97,6 @@ should be cleared when going to a different res size*/
   margin: 0;
   line-height: 24px;
   font-weight: 700;
-  /* color: #0C5241; */
   color: white;
 }
 .navbar li a:hover {
@@ -215,7 +202,6 @@ should be cleared when going to a different res size*/
   /* Media Query for Tablets Ipads portrait mode, desktop */
 @media (min-width: 768px) {
   #header {
-    height: 100vh;
     padding: 5vw;
     
   }
@@ -223,15 +209,13 @@ should be cleared when going to a different res size*/
 
 #header {
   text-align: center;
-  position: absolute;
-  top: 5%;
-  /* display: flex; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 0px;
-  width: 100vw;
-  /* height: 100vh; */
-  /* background-image: url(../images/graphics/background.png); */
+  margin-top: 20vh;
+  margin-bottom: 30vh;
 }
 
 #logo {
@@ -239,16 +223,11 @@ should be cleared when going to a different res size*/
   width: 83vh;
 }
 
-#header-right {
-  /* display: flex; */
-  /* flex-direction: column; */
+#header-above {
   text-align: center;
-  position: relative;
-  /* padding-right: 5vw; */
-  overflow: hidden;
 }
 
-#header-right button {
+#header-above button {
   border-radius: 5px;
   margin: 3px 0px;
   font-size: 1.2em;
@@ -256,32 +235,30 @@ should be cleared when going to a different res size*/
   border: none;
 }
 
-#header-right a {
+#header-above a {
   text-decoration: none;
 
 }
 
 #header-below{
-  position: absolute;
-  top: 20vh;
   text-align: center;
   background-color: rgba(4, 42, 40, 0.8);
   padding: 30px;
-  width: 74%;
+  width: 80%;
   margin: auto;
   border-radius: 50px;
   margin-top: 20vh;
   color: white;
-  position: relative;
-  overflow: hidden;
+
+
   
 
 }
 
 #app_buttons {
-  /* display: flex; */
+  display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 #app_buttons a{
@@ -399,23 +376,23 @@ should be cleared when going to a different res size*/
 }
 
 .section {
-  min-height: 100vh;
-  width: 100vw;
   padding: 5vh 5vw;
   font-size: 1.5em;
   text-align: center;
 
-  /* display: flex;
-  flex-direction: column; */
+  
+
+
 }
 
 .section#schedule{
-  position: absolute;
-  top: 370vh;
+  position: relative;
   color: white; /*comment this out*/
   background-color:rgba(4, 42, 40, 0.8);
   padding: 20px;
   border-radius: 50px;
+  margin-bottom: 50vh;
+
 }
 
 .section-title {
@@ -431,9 +408,8 @@ should be cleared when going to a different res size*/
 #hack-date a{
   font-size: 150px;
 }
+
 /* social media links*/
-
-
 
 .list-inline {
   padding-left: 0;
@@ -441,7 +417,7 @@ should be cleared when going to a different res size*/
   margin: -5px;
   display: block;
   text-align: center;
-  height: 60px;
+  height: 80px;
   overflow: hidden;
 }
 
@@ -481,25 +457,30 @@ list-inline > li {
   margin-top: 30px; /*space between social media links and shell divider*/
 }
 
+/* MAIN section */
+#main{
+  width: 73%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
 /* ABOUT section */
 
 
 .section#about{
+  position: relative;
   background-color: rgba(4, 42, 40, 0.8);
   text-align: center;
   border-radius: 50px;
-  margin-top: 20vh;
-  position: absolute;
-  top: 200vh;
+  margin-bottom: 50vh;
+
 }
+
 #about {
   text-align: center;
   justify-content: space-evenly;
-  /*background-color: rgb(83, 132, 184, 0.5);*/
   color: white;
-  /*background-color: #2A2F49;*/
-  padding-top: 80px;
-  padding-bottom: 80px;
   
 }
 
@@ -512,7 +493,6 @@ list-inline > li {
 #about a {
   text-decoration: none;
   color: lavender;
-
 }
 
 
@@ -532,7 +512,6 @@ list-inline > li {
 }
 
 .card {
-  /*background-color: rgb(255, 255, 255, 0.5);*/
   background-color: white;
   opacity: 0.9;
   padding: 20px;
@@ -628,18 +607,13 @@ list-inline > li {
 
 /* FAQ section */
 .section#faq{
-  position: absolute;
-  top: 300vh;
+  position: relative;
+  margin-bottom: 50vh;
 }
 
 #faq {
   text-align: left;
-  /*background-color: rgb(141, 131, 190, 0.5);*/
-  /*background-color: #685E9E;*/
-  /* background-color: #0E0C1C; */
   font-family: 'Open Sans', sans-serif;
-  padding-left: 250px;
-  padding-right: 250px;
 }
 
 #faq a {
@@ -736,8 +710,8 @@ list-inline > li {
 } */
 
 .section#sponsors{
-  position: absolute;
-  top: 510vh;
+  position: relative;
+  margin-bottom: 50vh;
   border-radius: 50px;
 }
 
@@ -747,8 +721,6 @@ list-inline > li {
   align-items: center;
   text-align: center;
   background-color:rgba(4, 42, 40, 0.8);
-
-  /* background-color: #0E0C1C;*/
   align-self: center;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
@@ -810,7 +782,6 @@ list-inline > li {
 
 #sponsors .section-title {
   /*color: #9dd8d2;*/
-  padding-top: 20px;
   font-family: 'Cabin', sans-serif;
   color:white;
 }
@@ -964,13 +935,13 @@ list-inline > li {
 
 }
 #team{
-  position: absolute;
-  top: 650vh;
+  position: relative;
   background-color:rgba(4, 42, 40, 0.8);
   border-radius: 50px;
   padding: 30px;
   width: 100%;
   margin-right: 400vh;
+  margin-bottom: 10vh;
   text-align: center;
 }
 
@@ -1044,11 +1015,9 @@ list-inline > li {
 /*footer*/
 
 #footer {
-  position: absolute;
-  top: 815vh;
+  position: relative;
   width: 100%;
   background-color: #363a59;
-  /* opacity: 0.1;*/
   padding: 15px;
   overflow: hidden;
   padding-left: 20px;
@@ -1123,6 +1092,7 @@ list-inline > li {
     flex-direction: column;
     justify-content: center;
   }
+
 
   #header-right img {
     padding-top: 10px;
@@ -1218,13 +1188,15 @@ list-inline > li {
   font-family: 'Open-Sans', sans-serif;
   padding-bottom: 15px;
   }
+
 }
 
 @media (max-width: 767px) {
 
+
   #logo{
     width: 300px;
-    height: 210px;
+    height: 250px;
   }
 
   #header{
@@ -1285,19 +1257,32 @@ list-inline > li {
   padding-bottom: 20px;
 }
 }
-@media (min-width: 320px) and (max-width: 499px) {
-  #team .team-wrapper {
+
+@media (min-width: 300px) and (max-width: 499px) {
+#team .team-wrapper {
     width: 100%;
 }
 
 #logo{
-  width: 300px;
-  height: 180px;
+  width: 400px;
+  height: 200px;
   margin-top: 10vh;
+}
+
+#hack-date {
+  font-size: 20px;
+  color: white;
 }
 
 #filler-3 {
   display: none;
+}
+
+#app_buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65vw; 
 }
 
 }
@@ -1314,5 +1299,12 @@ list-inline > li {
     padding: 0;
     text-align:center;
   }
+
+  #logo{
+    width: 80vw;
+    height: 40vh;
+    margin-top: 10vh;
+  }
+
 }
 
