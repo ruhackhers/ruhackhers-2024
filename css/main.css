@@ -21,13 +21,12 @@ html {
 
 body {
   
-  color: white;
   background-color: transparent;
   text-align: center;
   font-family: "Cabin", sans-serif;
   scroll-snap-type: y mandatory;
   background-image: url('../images/graphics/2024background.png');
-  /* background-size: cover; */
+  background-size: cover;
   max-width: 100%;
 }
 
@@ -58,7 +57,7 @@ should be cleared when going to a different res size*/
   margin: 0 auto;
 }
 
-!*styling navbar link position*!
+/* !*styling navbar link position*! */
 .navbar-nav > li > a {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -402,12 +401,9 @@ should be cleared when going to a different res size*/
 
 #hack-date {
   padding-top: 2vh;
-  color: white;
+  color: #0C5241;
 }
 
-#hack-date a{
-  font-size: 150px;
-}
 
 /* social media links*/
 
@@ -1271,7 +1267,6 @@ list-inline > li {
 
 #hack-date {
   font-size: 20px;
-  color: white;
 }
 
 #filler-3 {
