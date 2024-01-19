@@ -15,7 +15,7 @@ html {
 }
 * {
   box-sizing: border-box;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 
 }
 
@@ -245,6 +245,7 @@ should be cleared when going to a different res size*/
   text-align: center;
   position: relative;
   /* padding-right: 5vw; */
+  overflow: hidden;
 }
 
 #header-right button {
@@ -261,6 +262,8 @@ should be cleared when going to a different res size*/
 }
 
 #header-below{
+  position: absolute;
+  top: 20vh;
   text-align: center;
   background-color: rgba(4, 42, 40, 0.8);
   padding: 30px;
@@ -270,6 +273,7 @@ should be cleared when going to a different res size*/
   margin-top: 20vh;
   color: white;
   position: relative;
+  overflow: hidden;
   
 
 }
@@ -407,7 +411,7 @@ should be cleared when going to a different res size*/
 
 .section#schedule{
   position: absolute;
-  top: 450vh;
+  top: 370vh;
   color: white; /*comment this out*/
   background-color:rgba(4, 42, 40, 0.8);
   padding: 20px;
@@ -486,7 +490,7 @@ list-inline > li {
   border-radius: 50px;
   margin-top: 20vh;
   position: absolute;
-  top: 250vh;
+  top: 200vh;
 }
 #about {
   text-align: center;
@@ -733,7 +737,7 @@ list-inline > li {
 
 .section#sponsors{
   position: absolute;
-  top: 600vh;
+  top: 510vh;
   border-radius: 50px;
 }
 
@@ -961,7 +965,7 @@ list-inline > li {
 }
 #team{
   position: absolute;
-  top: 750vh;
+  top: 650vh;
   background-color:rgba(4, 42, 40, 0.8);
   border-radius: 50px;
   padding: 30px;
@@ -1040,6 +1044,8 @@ list-inline > li {
 /*footer*/
 
 #footer {
+  position: absolute;
+  top: 820vh;
   width: 100%;
   background-color: #363a59;
   /* opacity: 0.1;*/
@@ -1089,7 +1095,7 @@ list-inline > li {
 .social-icons {
   text-align: left;
   padding-top: 8px;
-  width: 200px margin-right: 0;
+  width: 200px; margin-right: 0;
 }
 
 
