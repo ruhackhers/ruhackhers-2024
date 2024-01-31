@@ -390,7 +390,7 @@ should be cleared when going to a different res size*/
   background-color:rgba(4, 42, 40, 0.8);
   padding: 20px;
   border-radius: 50px;
-  margin-bottom: 50vh;
+  margin-bottom: 40vh;
 
 }
 
@@ -469,7 +469,7 @@ list-inline > li {
   background-color: rgba(4, 42, 40, 0.8);
   text-align: center;
   border-radius: 50px;
-  margin-bottom: 50vh;
+  margin-bottom: 40vh;
 
 }
 
@@ -604,7 +604,7 @@ list-inline > li {
 /* FAQ section */
 .section#faq{
   position: relative;
-  margin-bottom: 50vh;
+  margin-bottom: 40vh;
 }
 
 #faq {
@@ -686,28 +686,9 @@ list-inline > li {
   /*color: #FEFFC4;*/
 }
 
-
-/* #faq-right {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  text-align: right;
-  font-size: 18px;
-  font-weight: 400;
-  color: #BDB8DD;
-}
-
-#faq-right a {
-  color: white;
-} */
-
-/* #faq-right img {
-  height: 30vw;
-} */
-
 .section#sponsors{
   position: relative;
-  margin-bottom: 50vh;
+  margin-bottom: 40vh;
   border-radius: 50px;
 }
 
@@ -926,34 +907,20 @@ list-inline > li {
 /*team styling*/
 
 
-#team h1 {
-	color: black;
-
-}
 #team{
   position: relative;
   background-color:rgba(4, 42, 40, 0.8);
   border-radius: 50px;
   padding: 30px;
   width: 100%;
-  margin-right: 400vh;
-  margin-bottom: 10vh;
+  margin-bottom: 40vh;
   text-align: center;
+
 }
 
 #team .row{
   margin-top: 30px;
   width: 100%;
-
-
-  /* display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 90%;
-  margin: auto;
-  margin-bottom: 50px;
-  padding: 20px;
-  padding-top: 30px;  */
 }
 
 #team .section-title{
@@ -1008,6 +975,37 @@ list-inline > li {
   border-radius: 20px;
 }
 
+#committee{
+  width: 73%;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  background-color:rgba(4, 42, 40, 0.8);
+  border-radius: 50px;
+  margin-bottom: 10vh;
+  color: white;
+}
+
+#committee .section-title{
+  color: white;
+  text-align: center;
+  padding: 30px;
+
+
+}
+
+#committee h4{
+  font-size: 20px;
+  font-family: 'Cabin', sans-serif;
+  margin-bottom: 0;
+  font-weight: 400;
+  color: #b6bde0;
+  padding-top: 12px;
+}
+
+.committee-section{
+  padding-bottom: 30px;
+}
 /*footer*/
 
 #footer {
@@ -1109,7 +1107,6 @@ list-inline > li {
     flex-direction: column;
     font-size: 0.9em;
     flex-direction: column;
-    margin-right: 10px;
   }
   #faq-right{
     padding-top: 100px;
