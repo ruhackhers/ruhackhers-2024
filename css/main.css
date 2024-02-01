@@ -250,6 +250,10 @@ should be cleared when going to a different res size*/
   color: white;
 }
 
+#header-below h4{
+  color: #FFF5B5;
+}
+
 #app_buttons {
   display: flex;
   flex-direction: row;
@@ -376,20 +380,20 @@ should be cleared when going to a different res size*/
 }
 
 .section#schedule{
-  position: relative;
-  color: white; /*comment this out*/
+  position: relative;  
   background-color:rgba(4, 42, 40, 0.8);
   padding: 20px;
   border-radius: 50px;
   margin-bottom: 40vh;
+  color: rgb(252, 252, 170);
 
 }
 
 .section-title {
   font-size: 50px;
   overflow: hidden;
-  margin-bottom: 20px;
   padding-top: 30px;
+  color: white;
 
 }
 
@@ -488,6 +492,7 @@ list-inline > li {
 #about h4{
   margin-top: 20px;
   margin-bottom: 30px;
+  color: #FFF5B5;
 }
 
 
@@ -504,6 +509,11 @@ list-inline > li {
 
 #info-cards {
   display: flex;
+}
+
+#info-cards .card{
+  background-color: #b6bde0;
+
 }
 
 .card {
@@ -764,7 +774,8 @@ list-inline > li {
 
 .sponsor-thanks {
   margin: auto;
-  width: 65%;
+  width: 75%;
+  color: FFF5B5;
 }
 
 .sponsor-thanks p {
