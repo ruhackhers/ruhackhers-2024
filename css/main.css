@@ -371,13 +371,8 @@ should be cleared when going to a different res size*/
 }
 
 .section {
-  padding: 5vh 5vw;
   font-size: 1.5em;
   text-align: center;
-
-  
-
-
 }
 
 .section#schedule{
@@ -394,6 +389,8 @@ should be cleared when going to a different res size*/
   font-size: 50px;
   overflow: hidden;
   margin-bottom: 20px;
+  padding-top: 30px;
+
 }
 
 #hack-date {
@@ -1095,10 +1092,7 @@ list-inline > li {
     width: 70vw;
     align-self: flex-end;
   }
-  .section {
-    font-size: 1.3em;
-    padding: 5vh 0vw;
-  }
+
 
   #info-cards {
     display: none;
