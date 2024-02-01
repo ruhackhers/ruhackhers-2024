@@ -248,10 +248,6 @@ should be cleared when going to a different res size*/
   border-radius: 50px;
   margin-top: 20vh;
   color: white;
-
-
-  
-
 }
 
 #app_buttons {
@@ -397,6 +393,7 @@ should be cleared when going to a different res size*/
 .section-title {
   font-size: 50px;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 
 #hack-date {
@@ -491,15 +488,20 @@ list-inline > li {
   color: lavender;
 }
 
+#about h4{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
 
 #about-info {
   align-self: center;
-  width: 90%;
   font-size: 16px;
   font-weight: 300px;
   font-family: 'Open Sans', sans-serif;
   line-height: 32px;
-  padding: 20px 35px;
+  padding-left: 20px;
+  padding-right: 20px;
   
 }
 
@@ -1263,7 +1265,7 @@ list-inline > li {
 }
 
 #hack-date {
-  font-size: 20px;
+  font-size: 12px;
 }
 
 #filler-3 {
@@ -1276,6 +1278,28 @@ list-inline > li {
   justify-content: center;
   width: 65vw; 
 }
+
+#header-below h4{
+  font-size: 15px;
+}
+
+#header-below h1{
+  font-size: 40px;
+}
+
+.section#about p{
+  font-size: 12px;
+}
+
+.section#faq h3,
+.answer {
+  font-size: 12px;
+}
+
+.section#sponsors .sponsor-thanks h4{
+  font-size: 15px;
+}
+
 
 }
 @media (min-width: 500px) and (max-width: 956px) {
